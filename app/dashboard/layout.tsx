@@ -1,4 +1,3 @@
-'use client';
 
 import SideNav from '@/app/ui/dashboard/sidenav';
  
