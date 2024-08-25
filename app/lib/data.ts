@@ -14,8 +14,8 @@ export async function fetchRevenue() {
     // Artificially delay a response for demo purposes.
     // Don't do this in production :)
 
-    console.log('Fetching revenue data...');  //$$$ it will show up in VScode terminal and not in Dev tool console as server comp
-    await new Promise((resolve) => setTimeout(resolve, 5000));
+    // console.log('Fetching revenue data...');  //$$$ it will show up in VScode terminal and not in Dev tool console as server comp
+    // await new Promise((resolve) => setTimeout(resolve, 5000));
 
     const data = await sql<Revenue>`SELECT * FROM revenue`;
 
